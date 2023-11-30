@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    gap: 3rem;
+    margin-top: 75px;
+
+    
+}
+
+.recipe-hero{
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+
+
+}
+.recipe-hero-img {
+    height: 400px;
+    border-radius: var(--borderRadius);
+    align-items: center;
+}
