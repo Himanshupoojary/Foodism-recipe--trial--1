@@ -11,9 +11,11 @@ body{
     align-items: center;
     gap: 30px;
     place-items: center;
+    place-self:  ;
 }
 
 .item{
     align-items: center;
     height: 400px;
+
 }
