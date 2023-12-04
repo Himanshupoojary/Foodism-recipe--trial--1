@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (max-width:700px){
+            .navbar-cont{
+                height: 20px;
+        }
+
+        }
+            
+        .nav-links{
+            height: 3.5rem;
+            display: flex;
+            gap:20px;
+            text-align: center;
+            background-color:rgb(0, 0, 0);
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        body{
+            margin:0;
+
+        }
+        .nav-logo{
+            
+            display: flex;
+            height: 2px;
+        }
+        .navlogoimg{
+            
+            height: 3rem;
+
+          }  
+    </style>
+</head>
+<body>
+    <div class="navbar-cont" >
+        
+        <div class="nav-links">
+            <div class="nav-header">
+                <form action="/home" method="post">
+                  <button class="nav-logo" style="background: transparent;">
+                    <img  class="navlogoimg" src="/pic/icon69.jpg" alt="Foodism.com">
+                    <div class="heading">Foodism.com</div>
+                  </button>
+                </form>
+                <button type="button" class="btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+            <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
+            <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
+            <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
+            <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn" style="background: transparent;">RECIPES</button></form>
+            <div class="nav-link contact-link">
+                <form action="/contact" method="post"><button class="btn">contact</button></form>
+            </div>
+      </div>
+    </div>
+    
+</body>
+</html>
+
+<!-- <div class="nav-center">
+            <div class="nav-header">
+              <form action="/home" method="post">
+                <button class="nav-logo" style="background: transparent;">
+                  <img src="../assets/recipes/Foodism.com.png" alt="Foodism.com">
+                  <div class="heading">Foodism.com</div>
+                </button>
+              </form>
+              <button type="button" class="btn nav-btn">
+                  <i class="fas fa-align-justify"></i>
+              </button>
+            </div>
+            <div class="nav-links">
+              <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
+              <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
+              <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
+              <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn">RECIPES</button></form>
+              <div class="nav-link contact-link">
+                <form action="/contact" method="post"><button class="btn">contact</button></form>
+              </div>
+            </div>
+          </div> -->
