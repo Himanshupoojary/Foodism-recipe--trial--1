@@ -15,7 +15,7 @@
         .nav-bar{
           height: 4.2rem;
           background-color: rgb(0, 0, 0);
-          display: flex;
+          display: flex ;
           justify-content: center;
           align-items: center;
 
@@ -23,7 +23,8 @@
         }
         .nav-center{
           width: 90%;
-          
+          align-items: center;
+          text-align: center;
           background-color: rgb(0, 0, 0);
           display: flex;
           
@@ -40,7 +41,7 @@
           float: right;
           gap:15px;
           width: 800px;
-       
+          padding-top: 15px;
 
 
         }
@@ -52,9 +53,8 @@
           font-size: 1rem;
           color:white;
           border: none;
-       
-      
-
+          justify-content: center;
+          align-items: center;
 
         }
         .nav-header{
@@ -98,8 +98,22 @@
           margin-right: 10px;
 
         }
+        .recipe-img{
+          height: 500px;
+          width: 80% ;
+          padding-left: 10%;
+        }
+/* main part begins hwhwhw:(( */
+        main{
+          width: 80%;
+          justify-content: centers;
+          padding-top: 75px;
+          margin-left: 10%;
+          
+          align-items: center;
+        }
 
-        
+     
          
     </style>
 </head>
@@ -114,7 +128,7 @@
          
         </form></div>
       <div class="nav-links">
-        <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
+        <form action="/home" method="post"  ><button class="nav-link" style="background: transparent;">HOME</button></form>
         <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
         <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
         <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn" style="background: transparent;">RECIPES</button></form>
@@ -123,6 +137,10 @@
       </div>
     </div>
   </div>
+  </div>
+  
+    
+  <main class="main-cont"><img src="/pic/amoon-ra-oWN1tKuUpJI-unsplash (1).jpg" alt="Recipes pic" class="recipe-img"> </main>
 
 
 
@@ -139,7 +157,7 @@
 
 
 
-
+<!--  -->
 
   <!-- <div class="navbar-cont" >
         
