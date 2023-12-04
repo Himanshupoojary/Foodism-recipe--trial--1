@@ -6,41 +6,142 @@
     <title>Document</title>
     <style>
         @media (max-width:700px){
-            .navbar-cont{
-                height: 20px;
-        }
+            .nav-bar{
+                height: 4.2rem;
+            }}
+        body{
+          margin: 0;
+        }   
+        .nav-bar{
+          height: 4.2rem;
+          background-color: rgb(0, 0, 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
 
         }
-            
-        .nav-links{
-            height: 3.5rem;
-            display: flex;
-            gap:20px;
-            text-align: center;
-            background-color:rgb(0, 0, 0);
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            background-color: black;
-        }
-        body{
-            margin:0;
+        .nav-center{
+          width: 90%;
+          
+          background-color: rgb(0, 0, 0);
+          display: flex;
+          
 
         }
         .nav-logo{
-            
-            display: flex;
-            height: 2px;
+          width: 400px;
+          display: inline-flex;
+          justify-content: space-between;
+          align-items: center;
         }
-        .navlogoimg{
-            
-            height: 3rem;
+        .nav-links{
+          display: flex;
+          float: right;
+          gap:15px;
+          width: 800px;
+       
 
-          }  
+
+        }
+        .nav-logoimg{
+          height: 4rem;
+          
+        }
+        .nav-link{
+          font-size: 1rem;
+          color:white;
+          border: none;
+       
+      
+
+
+        }
+        .nav-header{
+          color: white;
+          font-size: 2rem;
+          justify-content: center;
+          align-items: center;
+        }
+        .nav-logo1{
+          width: 80%;
+          margin-left:75px;
+        }
+        .nav-logo-btn{
+          display: flex;
+          gap:10px;
+          background:transparent;
+          align-items: center;
+          height: 5px;
+          border-width: initial;
+          border-style: initial;
+          border-color: transparent;
+          border-image: initial;
+        }
+        .nav-link-cntbtn{
+
+          background-color: red;
+          border-radius: 7px;
+          font-size: .9rem;
+          cursor: pointer;
+          color: var(--white);
+          border: transparent;
+          padding: 0.375rem 0.75rem;
+          cursor: pointer;
+          padding: 0.375rem 0.75rem;
+          box-shadow: var(--shadow-1);
+          transition: var(--transtion);
+
+        }
+        .contact-link{
+          margin-left: auto;
+          margin-right: 10px;
+
+        }
+
+        
+         
     </style>
 </head>
 <body>
-    <div class="navbar-cont" >
+  <div class="nav-bar">
+    <div class="nav-center">
+      <div class="nav-logo">
+        <form action="/home" method="post" class="nav-logo1">
+          <button class="nav-logo-btn">  
+            <img src="/pic/icon69.jpg" alt="Logo" class="nav-logoimg" >   
+            <div class="nav-header"> Foodism.com</div></button>
+         
+        </form></div>
+      <div class="nav-links">
+        <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
+        <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
+        <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
+        <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn" style="background: transparent;">RECIPES</button></form>
+        <div class="nav-link contact-link">
+            <form action="/contact" method="post"><button class="nav-link-cntbtn">CONTACT</button></form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="navbar-cont" >
         
         <div class="nav-links">
             <div class="nav-header">
@@ -53,7 +154,7 @@
                 <button type="button" class="btn nav-btn">
                     <i class="fas fa-align-justify"></i>
                 </button>
-            </div>
+            </div class="nav-links">
             <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
             <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
             <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
@@ -62,7 +163,9 @@
                 <form action="/contact" method="post"><button class="btn">contact</button></form>
             </div>
       </div>
-    </div>
+    </div> -->
+
+    
     
 </body>
 </html>
