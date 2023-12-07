@@ -95,7 +95,6 @@ body{
 }
 
 main{
-  display: flex;
   width:60%;
   justify-content: centers;
   padding-top: 75px;
@@ -117,10 +116,47 @@ main{
   z-index: 1;
 }
 
-.head-cont{
-  display: flex;
-  z-index: 2;
-  
-
+.svg-container{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  margin-top: 2rem;
 }
 
+.season-recipe{
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+
+}
+.recipe-header{
+  font-size:2rem;
+  font-weight: 500;
+  font-style: sans-serif;
+}
+.tags-list{
+  display: grid;
+  margin-top: 20px;
+  justify-content:left;
+  gap:10px  
+}
+
+.recipe-butt{
+  font-size: 16px;
+  font-weight: 400  ;
+  padding-bottom: 1rem;
+  color:rgb(73, 71, 71) ;
+}
+
+.svg-image-osm{
+  display: grid;
+  grid-template-columns: auto     ;
+}
+
+.svg-header{
+  font-size: 2rem;
+  margin:0;
+}
+.img{
+  height:100px;
+  width :100px
+}
