@@ -18,50 +18,40 @@ body{
   align-items: center;
   text-align: center;
   background-color: rgb(0, 0, 0);
-  width: 60%;
+  width: 80%;
   max-width: var(--max-width);
-  
-
-  
-
+  display: flex;
 }
 .nav-logo{
-  width: 400px;
-  float: left;
+  display: flex;
+  flex:1;
   height: 2rem;
   justify-content: center;
   align-items: center;
-
-
-
 }
 .nav-links{
+  flex:3;
   display: flex;
-  float: right;
   gap:15px;
-  width: 800px;
   align-items: center;
 }
 .nav-logo1{
     align-items: center;
-    padding-top: 10px;
   }
-  
-
-
-  
+    
 .nav-logoimg{
-  height:2000%;
+  height:4rem;
   
 }
 .nav-link{
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color:white;
   border: none;
   justify-content: center;
   align-items: flex-end;
-  font-size: 1.5rem;
+  resize: none;
+
 
 }
 .nav-header{
@@ -106,10 +96,10 @@ body{
 
 main{
   display: flex;
-  width: 80%;
+  width:60%;
   justify-content: centers;
   padding-top: 75px;
-  margin-left: 10%;
+  margin: 0 auto;
   
   align-items: center;
 }
@@ -118,9 +108,12 @@ main{
 }
 /* main part begins hwhwhw:(( */
 .recipe-img{
-  height: 500px;
-  width: 80% ;
-  padding-left: 10%;
+  height: 40vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
   z-index: 1;
 }
 

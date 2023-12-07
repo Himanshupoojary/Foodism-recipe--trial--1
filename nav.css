@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+.nav-container{
+    height: 4.2rem;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.nav-center{
+    height: 4rem;
+    background-color: rgb(0, 0, 0);
+    width: 60vw;
+    display: flex; 
+    margin: 10px;  
+    align-items: center;
+
+}
+.nav-logo{
+    display: flex;
+    flex:1;
+    background-color: black;
+    height: 2rem;
+    justify-content: space-between;
+
+}
+
+
+.logo-btn{
+    display: flex;
+    border:transparent;
+    background-color: black;
+    height: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+
+
+}
+.favicon-img{
+    width: 75px;
+}
+.nav-header{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: xx-large;
+}
+.nav-links{
+    flex:3;
+    background-color: rgb(167, 187, 187);
+    display: flex;
+
+}
