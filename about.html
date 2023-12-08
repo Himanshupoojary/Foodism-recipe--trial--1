@@ -1,115 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head style="margin-top: 0;">
-
-    <title>About sdfghMe</title>
-   
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="about.css"> 
 </head>
-<style>
-    .head1{
-  color: inherit;
-  text-decoration: none;
-}
+<body>
+  <!-- Nav BAr -->
+  <div class="nav-bar">
+    <div class="nav-center">
+      <div class="nav-logo">
+        <form action="/home" method="post" class="nav-logo1">
+          <button class="nav-logo-btn">  
+            <img src="/pic/icon69.jpg" alt="Logo" class="nav-logoimg" >   
+            <div class="nav-header"> Foodism.com</div></button>
+         
+        </form></div>
+      <div class="nav-links">
+        <form action="/home" method="post"  ><button class="nav-link" style="background: transparent;" href="/index.html" >HOME</button></form>
+        <form action="/about" method="post"><button class="nav-link" style="background: transparent;" href="/about.html">ABOUT</button></form>
+        <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD RECIPE</button></form>
+        <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn" style="background: transparent;">RECIPES</button></form>
+        <div class="nav-lin contact-link">
+            <form action="/contact" method="post"><button class="nav-link-cntbtn">CONTACT</button></form>
+      </div>
+    </div>
+  </div>
+  </div>
 
-.head1 {
-  background:
-    linear-gradient(
-      to right,
-      rgb(221, 167, 92),
-      rgb(109, 22, 22)
-    ),  
-    linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 180, 1),
-      rgba(0, 100, 200, 1)
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;}
-
-.head1:hover {
-  background-size: 0 3px, 100% 3px;
-}
-
-/* Presentational Styles */
-body {
-  margin: 0;
-  display: grid;
-  font-family: 'Poppins', sans-serif;
-  font-size: 27px;
-  font-weight: 700;
-  height: 100vh;
-  place-items: top;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.topnav{
-  display: flex;
-  gap:20px;
-  text-align: center;
-  background-color:rgb(0, 0, 0);
-  margin: 0;
-}
-.para-c{
-  margin-left: 120px;
-  width: 50%;
-  text-align: center;
-  display: block;
-
-}
-#para{
-  text-align: justify;
-}
-button:hover {
-  background-color: blue;
-  color: rgb(150, 59, 59);
-}
-.img-about{
-  float:right; 
-  display: inlines;
-}
-footer{
-  text-align: center;
-  margin:0;
-}
-</style>
-<link rel="icon" type="img/jpg" href="/pic/icon.jpg">
-<div class="topnav" >
-    <span style="color: white;"><h1>FOODISM.COM</h1></span>
-    <h2 style="color: rgb(255, 255, 255);"><a class="head1" class="active" href="index.html">Home</a>
-    <a class="head1" href="recipe.html">Recipes</a>
-    <a class="head1" href="add.html" id="p1"> Add Your Recipe</a>
-    <a class="head1" href="about.html">About</a>
-    <a class="head1" href="contact.html">Contact</a></h2>
-
-  </div> 
-  <body  style="background-color: rgb(248, 221, 186); touch-action: cross-slide-x;">
-  
-    <article>
-        <br>
-        <br><div class="para-c">
-        <h2 id="who">Who We Are</h2>
-        <h3><p id="para">
-                Simple Recipes are here to help you cook delicious
-                meals with less stress and more joy. We offer recipes 
-                and cooking advice for home cooks, by home cooks. Helping 
-                create “kitchen wins” is what we’re all about.</p></h3></div>
-                <img src="pic/about.jpeg"  height="600" width="600" class="img-about">
-        <br> <br> <br>
-        <p style="margin-left: 500px;">Made by <b> Himanshu Poojary</b>, CSE(NMAMIT)</p>
-       
+  <!-- main part -->
+  <main class="page">
+    <section class="page-container">
+      <article>
+        <span class="bio-header">Who We Are</span>
+        <p>Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.</p>
+        <p>Made by <b>Himanshu Poojary</b>, CSE(NMAMIT)</p>
+        <form action="/contact" method="post"><button class="btn">contact</button></form>
       </article>
+    </section>
+  </main>
 
-      <h3 style= "transform: translate(850px,-450px);"> Look At This Awesomeness !!</h3>
-      <button  type="button" style="height: 500px; width: 450px;transform: translate(450px,-450px);background-color: rgb(223, 199, 133);"  ><a href="dish/banpancake.html"><img src="pic/bananapancake.jpeg" height="400px" href="dish/banpancake.html" ><br> <h2>Banana Pancake</h2><h4><p>Prep : 30mins | Cook : 15mins</p></h4></a></button>
+
 </body>
 <footer >
-    <div style="background-color: rgb(221, 167, 92);">
-<h4> © 2023 Foodism.com Built by <b>Himanshu Poojary</b></h4>
+  <div class="footer101"> © 2023 Foodism.com Built by Himanshu Poojary
 
 </div>
 </footer>

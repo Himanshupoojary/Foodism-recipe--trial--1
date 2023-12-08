@@ -98,11 +98,9 @@ body{
 
 main{
   width:60%;
-  justify-content: centers;
   padding-top: 75px;
   margin: 0 auto;
-  
-  align-items: center;
+
 }
 .nav-logo1{
   justify-content: center;
@@ -111,10 +109,8 @@ main{
 .recipe-img{
   height: 40vh;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
+
+
   z-index: 1;
 }
 
@@ -175,3 +171,9 @@ footer{
   align-items: center;
 }
 
+a:hover .satin{
+  fill: #D01A20 !important;
+}
+.nav-link:hover{
+  color: #ED1C24;
+}
