@@ -48,6 +48,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     resize: none;
+    flex-shrink: 0;
   
   
   }
@@ -157,4 +158,8 @@ main{
     box-shadow: var(--shadow-1);
     transition: var(--transtion);
   
+  }
+  .chef-img{
+    width: 100%;
+    height:auto;
   }

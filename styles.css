@@ -53,6 +53,7 @@ body{
   justify-content: center;
   align-items: flex-end;
   resize: none;
+  flex-shrink: 0;
 
 
 }
@@ -170,10 +171,35 @@ footer{
   justify-content: center;
   align-items: center;
 }
-
-a:hover .satin{
-  fill: #D01A20 !important;
-}
 .nav-link:hover{
   color: #ED1C24;
+}
+/* hover effect over svg img*/
+a:hover .satin{
+  fill: #0f0909 !important;
+}
+
+a:hover .AFRICA{
+  fill:rgb(35, 173, 0) !important;
+}
+a:hover .OCEANA{
+  fill:rgb(194, 0, 120) !important;
+}
+a:hover .MIDEAST{
+  fill:rgb(248, 149, 0) !important;
+}
+a:hover .SASIA{
+  fill:rgb(182, 12, 0) !important;
+}
+a:hover .NASIA{
+  fill:rgb(17, 143, 101) !important;
+}
+a:hover .EUROPE{
+  fill:rgb(172, 1, 1) !important;
+}
+a:hover .SAMER{
+  fill:rgb(125, 0, 150) !important;
+}
+a:hover .NAMER{
+  fill:rgb(27, 0, 177) !important;
 }
