@@ -171,8 +171,21 @@ footer{
   justify-content: center;
   align-items: center;
 }
+.footer-header{
+  text-decoration: none;
+  color: rgb(143, 143, 143);
+}
+.footer-header:hover{
+  color:#ED1C24;
+}
 .nav-link:hover{
   color: #ED1C24;
+}
+.nav-header:hover{
+  color: #ED1C24;
+}
+.nav-link-cntbtn:hover{
+  background-color: #e60008;
 }
 /* hover effect over svg img*/
 a:hover .satin{

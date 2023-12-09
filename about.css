@@ -98,6 +98,15 @@ body{
   .nav-link:hover{
     color: #ED1C24;
   }
+  .nav-header:hover{
+    color: #ED1C24;
+  }
+  .nav-link-cntbtn:hover{
+    background-color: #e60008;
+  }
+  .cont-btn:hover{
+    background-color: #e60008;
+  }
   
   /* Footer css*/
   footer{
@@ -162,4 +171,11 @@ main{
   .chef-img{
     width: 100%;
     height:auto;
+  }
+  .footer-header{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+  }
+  .footer-header:hover{
+    color:#ED1C24;
   }
