@@ -187,6 +187,9 @@ footer{
 .nav-link-cntbtn:hover{
   background-color: #e60008;
 }
+.recipe-butt:hover{
+  color:rgb(255, 1, 1);
+}
 /* hover effect over svg img*/
 a:hover .satin{
   fill: #0f0909 !important;
