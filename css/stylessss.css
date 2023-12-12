@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodism.com</title>
+    <script src="../js/mapdata.js"></script>
+		<script src="../js/continentmap.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="../css/mainmain.css" >
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+              <form action="/home" method="post">
+                <button class="nav-logo" style="background: transparent;">
+                  <img src="../assets/recipes/Foodism.com.png" alt="Foodism.com">
+                  <div class="heading">Foodism.com</div>
+                </button>
+              </form>
+              <button type="button" class="btn nav-btn">
+                  <i class="fas fa-align-justify"></i>
+              </button>
+            </div>
+            <div class="nav-links">
+              <form action="/home" method="post"><button class="nav-link" style="background: transparent;">HOME</button></form>
+              <form action="/about" method="post"><button class="nav-link" style="background: transparent;">ABOUT</button></form>
+              <form action="/add" method="post"><button class="nav-link nav-button adjust" style="background: transparent;">ADD YOUR RECIPE</button></form>
+              <form action="/recipesall" method="post"><button class="nav-link nav-button adjust recipe-btn">RECIPES</button></form>
+              <div class="nav-link contact-link">
+                <form action="/contact" method="post"><button class="btn">contact</button></form>
+              </div>
+            </div>
+          </div> 
+        </nav>
+        <main class="page">
+          <header class="hero">
+            <div class="hero-container">
+              <div class="hero-text">
+                <h1>Foodism.com</h1>
+                <h4>no fluff, just recipes</h4>
+              </div>
+            </div>
+          </header>
+          <section class="recipes-container">
+            <div class="tags-container">
+              <h4>Recipes</h4>
+              <div class="tags-list">
+                <form action="/randomrecipes" method="post">
+                  <input type="hidden" value="chicken">
+                  <button style="border: none; background: none;">Winter Recipes</button>
+                </form>
+                <form action="/randomrecipes" method="post">
+                  <input type="hidden" value="chicken">
+                  <button style="border: none; background: none;">Summer Recipes</button>
+                </form>
+                <form action="/randomrecipes" method="post">
+                  <input type="hidden" value="chicken">
+                  <button style="border: none; background: none;">Vacation Recipes</button>
+                </form>
+                <form action="/randomrecipes" method="post">
+                  <input type="hidden" value="chicken">
+                  <button style="border: none; background: none;">Random Recipes</button>
+                </form>
+              </div>
+            </div>
+            <div class="recipes-list">
+              <div class="recipe-text"><h4>Now get your favorite recipes based on the regions you live!!!!</h4></div>
+              <div class="recipe-map">
+                <div id="map"></div>
+              </div>
+            </div>
+          </section>
+        </main>
+          <footer class="page-footer">
+            <p>&copy; <span id="date">2022</span>
+            <span class="footer-logo">
+              Foodism.com
+            </span>
+          Built by Aaron Nazareth</p>
+          </footer>
+  </body>
+ <!-- <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> -->
+  <script type="text/javascript" src="../js/app.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</html>

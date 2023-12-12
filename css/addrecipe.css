@@ -1,0 +1,140 @@
+
+body{
+    margin: 0;
+  }   
+  .nav-bar{
+    height: 4.2rem;
+    background-color: rgb(0, 0, 0);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .nav-center{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    max-width: var(--max-width);
+    display: flex;
+  }
+  .nav-logo{
+    display: flex;
+    flex:1;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-links{
+    flex:3;
+    display: flex;
+    gap:15px;
+    align-items: center;
+  }
+  .nav-logo1{
+      align-items: center;
+    }
+      
+  .nav-logoimg{
+    height:4rem;
+    
+  }
+  .nav-link{
+    display: block;
+    font-size: 1.2rem;
+    color:white;
+    border: none;
+    justify-content: center;
+    align-items: flex-end;
+    resize: none;
+    flex-shrink: 0;
+  
+  
+  }
+  .nav-header{
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-logo-btn{
+    display: flex;
+    gap:10px;
+    background:transparent;
+    align-items: center;
+    height: 5px;
+    border-width: initial;
+    border-style: initial;
+    border-color: transparent;
+    border-image: initial;
+    justify-content: center;
+  }
+  .nav-link-cntbtn{
+  
+    background-color: red;
+    border-radius: 7px;
+    font-size: .9rem;
+    cursor: pointer;
+    color: var(--white);
+    border: transparent;
+    padding: 0.375rem 0.75rem;
+    box-shadow: var(--shadow-1);
+    transition: var(--transtion);
+  
+  }
+  .contact-link{
+    margin-left: auto;
+    margin-right: 15px;
+    color: white;
+    
+  
+  }
+  
+  main{
+    width:60%;
+    padding-top: 75px;
+    margin: 0 auto;
+  
+  }
+  .nav-logo1{
+    justify-content: center;
+  }
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0 0 0 0;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    
+  }
+  .footer101{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-header{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+  }
+  .footer-header:hover{
+    color:#ED1C24;
+  }
+  .nav-link:hover{
+    color: #ED1C24;
+  }
+  .nav-header:hover{
+    color: #ED1C24;
+  }
+  .nav-link-cntbtn:hover{
+    background-color: #e60008;
+  }
+  .recipe-butt:hover{
+    color:rgb(255, 1, 1)  ;
+  }
