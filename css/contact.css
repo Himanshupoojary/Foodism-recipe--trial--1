@@ -198,17 +198,21 @@ footer{
 
 } 
 .area{
-  height: 50px ;
+  height: 60px ;
   width: 400px;
 }
 
 .area-name{
   width: 400px;
-  height: 20sspx;
+  height: 30px;
+  font-size: large;
 }
 .submit-btn-div{
   display: flex;
   align-items: center;
   justify-content: center;
   
+}
+.from-textarea{
+  font-size: large;
 }
