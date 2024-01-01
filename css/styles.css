@@ -37,6 +37,8 @@ body{
   display: flex;
   gap:15px;
   align-items: center;
+  flex-direction: row;
+  height: 100%;
 }
 .nav-logo1{
     align-items: center;
@@ -51,10 +53,7 @@ body{
   font-size: 1.2rem;
   color:white;
   border: none;
-  justify-content: center;
-  align-items: flex-end;
-  resize: none;
-  flex-shrink: 0;
+  
 
 
 }
@@ -98,6 +97,24 @@ body{
   gap: 40px;
   
 
+}
+.nav-btn{
+  background-color: red;
+  border:none;
+  height: 2rem;
+  width: 2rem;
+  float:right;
+
+}
+@media only screen and (min-width: 1200px){
+  .nav-btn{
+    display: none;
+  }
+}
+@media only screen and (width < 1200px ){
+  .nav-links{
+    display:none;
+  }
 }
 .darkbtn button{
   float:right;
