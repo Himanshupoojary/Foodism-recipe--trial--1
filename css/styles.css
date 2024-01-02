@@ -148,6 +148,7 @@ main{
   display: grid;
   grid-template-columns: 0.5fr 2fr;
   margin-top: 2rem;
+  grid-gap: 20px;
 }
 
 .season-recipe{
@@ -178,6 +179,7 @@ main{
 .svg-image-osm{
   display: grid;
   grid-template-columns: auto     ;
+  
 }
 
 .svg-header{
