@@ -1,12 +1,9 @@
 import express from "express"
 import bodyParser from "body-parser";
-import { urlencoded } from "body-parser";
 
 
-const express= require("express");
+
 const app=express();
-
-const bodyParser=require("body-parser");
 
 app.get("/",(req,res) => {
     res.send('sfsjfs')})
@@ -31,6 +28,6 @@ app.get("/recipe",(req,res) => {
                         
     
 
-app.listen(3000,funtion(){
+app.listen(3000,() =>{
     console.log("server is running on 3000");
 })
